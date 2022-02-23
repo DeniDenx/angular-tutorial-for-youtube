@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+.gradient-custom {
+  background: #6a11cb;
+  background: -webkit-linear-gradient(
+      to right,
+      rgba(106, 17, 203, 1),
+      rgba(37, 117, 252, 1)
+  );
+  background: linear-gradient(
+      to right,
+      rgba(106, 17, 203, 1),
+      rgba(37, 117, 252, 1)
+  );
+}
+
+.text-info:hover {
+  background: rgba(118, 150, 155, 0.18);
+}
+
+.text-info:active {
+  background: rgba(100, 149, 237, 0.35);
+  transform: scale(0.95);
+}
+
+.active {
+  background: rgba(59, 70, 138, 0.35);
+}
+
+
