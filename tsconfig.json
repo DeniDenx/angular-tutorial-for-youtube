@@ -22,13 +22,13 @@
       "es2020",
       "dom"
     ],
-    "typeRoots": [
-      "node_modules/@types",
-      "node_modules/@angular",
-      "node_modules/@angular/common",
-      "node_modules/@angular/common/http"
-    ]
   },
+  "typeRoots": [
+    "node_modules/@types",
+    "node_modules/@angular",
+    "node_modules/@angular/common",
+    "node_modules/@angular/common/http",
+  ],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
